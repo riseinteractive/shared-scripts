@@ -14,5 +14,12 @@ pip_install()
     pip install pykafka
 }
 
+#for some reason python perms need to get reset
+python_perms()
+{
+    chmod 755  /usr/local/lib/python2.7 -R
+}
+
 pip_install
+python_perms
 exit 0
