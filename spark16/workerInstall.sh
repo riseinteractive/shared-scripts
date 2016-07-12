@@ -50,6 +50,6 @@ set_env()
 }
 
 set_env
-pip_install
 apt_install
+pip_install
 exit 0
