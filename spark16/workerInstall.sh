@@ -28,15 +28,15 @@ done
 pip_install()
 {
     wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark16/requirements.txt
-    pip install -r requirements.txt
+    /usr/bin/anaconda/bin/pip install -r requirements.txt
     rm requirements.txt
-    pip install oauth oauth2client==1.5.2
+    /usr/bin/anaconda/bin/pip install oauth oauth2client==1.5.2
 }
 
 apt_install()
 {
     apt-get update && apt-get dist-upgrade -y
-    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev
+    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev build-essential libssl-dev python-dev
 }
 
 set_env()
