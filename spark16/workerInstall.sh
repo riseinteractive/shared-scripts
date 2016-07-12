@@ -8,11 +8,28 @@ then
     exit 3
 fi
 
+while getopts ":env:" opt; do
+  case $opt in
+    env)
+      ENV=$OPTARG    
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+    :)
+      echo "Option -$OPTARG requires an argument." >&2
+      exit 1
+      ;;
+  esac
+done 
+
+
 pip_install()
 {
-    wget 
-    pip install numpy
-    pip install pykafka
+    wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark16/requirements.txt
+    pip install -r requirements.txt
+    rm requirements.txt
 }
 
 apt_install()
@@ -21,6 +38,17 @@ apt_install()
     apt-get install htop vim-nox
 }
 
+set_env()
+{
+    if grep -q "ENV=$ENV" "/etc/environment"; then
+        echo "ENV already installed." 
+    else
+        echo "ENV=$ENV" >> /etc/environment
+        echo "ENV installed."
+    fi
+}
+
+set_env
 pip_install
 apt_install
 exit 0
