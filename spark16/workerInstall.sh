@@ -8,21 +8,7 @@ then
     exit 3
 fi
 
-while getopts ":env:" opt; do
-  case $opt in
-    env)
-      ENV=$OPTARG    
-      ;;
-    \?)
-      echo "Invalid option: -$OPTARG" >&2
-      exit 1
-      ;;
-    :)
-      echo "Option -$OPTARG requires an argument." >&2
-      exit 1
-      ;;
-  esac
-done 
+ENV="${1:?Usage: workerInstall <env>}"
 
 
 pip_install()
