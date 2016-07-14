@@ -18,3 +18,7 @@ SQLAlchemy==1.0.12
 gspread==0.3.0
 twitter==1.17.1
 yweather==0.1.1
+pyftpsync==1.0.3
+pyyaml==3.11
+requests==2.9.1
+numpy==1.9.2
