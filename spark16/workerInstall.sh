@@ -23,8 +23,8 @@ pip_install()
 
 apt_install()
 {
-    apt-get update && apt-get dist-upgrade -y
-    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev build-essential libssl-dev python-dev -y
+    apt-get update
+    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev build-essential libssl-dev python-dev libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk -y
 }
 
 set_env()
