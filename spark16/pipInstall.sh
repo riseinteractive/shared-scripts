@@ -8,9 +8,6 @@ then
     exit 3
 fi
 
-ENV="${1:?Usage: workerInstall <env>}"
-
-
 pip_install()
 {
     wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark16/requirements.txt
@@ -21,23 +18,5 @@ pip_install()
     rm requirements.txt
 }
 
-apt_install()
-{
-    apt-get update && apt-get dist-upgrade -y
-    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev build-essential libssl-dev python-dev -y
-}
-
-set_env()
-{
-    if grep -q "ENV=$ENV" "/etc/environment"; then
-        echo "ENV already installed." 
-    else
-        echo "ENV=$ENV" >> /etc/environment
-        echo "ENV installed."
-    fi
-}
-
-set_env
-apt_install
 pip_install
 exit 0
