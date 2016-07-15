@@ -24,3 +24,4 @@ requests==2.9.1
 numpy==1.9.2
 oauth2client==1.5.2
 stop-words==2015.2.23.1
+boto==2.39.0
