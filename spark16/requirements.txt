@@ -25,3 +25,4 @@ numpy==1.9.2
 oauth2client==3.0.0
 stop-words==2015.2.23.1
 boto==2.39.0
+nltk==3.2.1
