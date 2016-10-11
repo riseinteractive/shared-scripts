@@ -14,9 +14,7 @@ ENV="${1:?Usage: workerInstall <env>}"
 pip_install()
 {
     wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark16/requirements.txt
-    /usr/bin/anaconda/bin/pip install oauth oauth2client==1.5.2
     /usr/bin/anaconda/bin/pip install -r requirements.txt
-    pip install oauth oauth2client==1.5.2
     pip install -r requirements.txt
     rm requirements.txt
 }
