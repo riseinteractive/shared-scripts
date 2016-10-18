@@ -10,6 +10,7 @@ fi
 
 pip_install()
 {
+    export LC_ALL=C
     wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark16/requirements.txt
     /usr/bin/anaconda/bin/pip install -r requirements.txt
     pip install -r requirements.txt
