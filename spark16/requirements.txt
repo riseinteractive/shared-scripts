@@ -2,6 +2,7 @@ argparse==1.2.1
 azure-storage==0.20.3
 bingads==10.4.1
 boto==2.39.0
+pycparser==2.13
 cryptography==1.4
 Fabric==1.10.2
 flake8==2.5.1
