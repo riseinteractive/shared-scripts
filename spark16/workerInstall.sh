@@ -18,6 +18,7 @@ pip_install()
     /usr/bin/anaconda/bin/pip install -r requirements.txt
     pip install --upgrade setuptools
     pip install -r requirements.txt
+    sudo chmod 777 /usr/local/lib/python2.7/dist-packages -R
     rm requirements.txt
 }
 
