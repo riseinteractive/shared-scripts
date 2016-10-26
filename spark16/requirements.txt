@@ -19,7 +19,6 @@ oauth2client==3.0.0
 pandas==0.18.0
 paramiko==1.13.0
 Pillow==3.1.1
-pyftpsync==1.0.3
 pykafka==2.1.2
 pysftp==0.2.9
 python-dateutil==2.4.2
