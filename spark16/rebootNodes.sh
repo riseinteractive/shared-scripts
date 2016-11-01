@@ -8,6 +8,6 @@ then
     exit 3
 fi
 
-/sbin/shutdown -r -t 5
+/sbin/shutdown -r +0
 
 exit 0
