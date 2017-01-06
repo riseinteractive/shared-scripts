@@ -6,6 +6,6 @@ This script is meant to be run on a 64-bit Ubuntu instance.  It will autodetect 
 2.  Install Fabric in your virtualenv: `pip install fabric`.
 3.  Run the deployment script:
 
-        ```bash
-        fab ubuntu:public-dns deploy
-        ```
+```bash
+fab ubuntu:public-dns deploy
+```
