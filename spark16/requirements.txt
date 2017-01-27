@@ -39,3 +39,4 @@ xlrd==0.9.4
 xmltodict==0.9.2
 yweather==0.1.1
 pycountry==1.20
+joblib==0.10.3
