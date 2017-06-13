@@ -47,3 +47,4 @@ win-unicode-console==0.5
 xmltodict==0.10.2
 paramiko==1.13.0
 pysftp==0.2.9
+google-api-python-client==1.6.2
