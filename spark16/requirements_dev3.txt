@@ -1,5 +1,6 @@
 alabaster==0.7.10
 Babel==2.4.0
+bingads==11.5.2
 boto3==1.4.4
 botocore==1.5.30
 colorama==0.3.7
