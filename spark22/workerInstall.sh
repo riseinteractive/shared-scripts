@@ -1,0 +1,43 @@
+#!/bin/bash
+# Pip Installs! 1.6 version
+
+if [ "${UID}" -ne 0 ];
+then
+    log "Script executed without root permissions"
+    echo "You must be root to run this program." >&2
+    exit 3
+fi
+
+ENV="${1:?Usage: workerInstall <env>}"
+
+
+pip_install()
+{
+    wget https://raw.githubusercontent.com/riseinteractive/shared-scripts/master/spark22/requirements.txt
+    /usr/bin/anaconda/bin/pip install oauth oauth2client==1.5.2
+    /usr/bin/anaconda/bin/pip install -r requirements.txt
+    pip install oauth oauth2client==1.5.2
+    pip install -r requirements.txt
+    rm requirements.txt
+}
+
+apt_install()
+{
+    apt-get update
+    apt-get install htop vim-nox libjpeg-dev zlib1g-dev libffi-dev g++ librdkafka-dev build-essential libssl-dev python-dev libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk -y
+}
+
+set_env()
+{
+    if grep -q "ENV=$ENV" "/etc/environment"; then
+        echo "ENV already installed." 
+    else
+        echo "ENV=$ENV" >> /etc/environment
+        echo "ENV installed."
+    fi
+}
+
+set_env
+apt_install
+pip_install
+exit 0
