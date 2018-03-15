@@ -42,3 +42,4 @@ joblib==0.10.3
 sparkly==2.3.0
 sparkly[redis]
 redis==2.10.6
+ujson==1.35
