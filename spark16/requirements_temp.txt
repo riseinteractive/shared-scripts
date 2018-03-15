@@ -40,4 +40,5 @@ xmltodict==0.9.2
 yweather==0.1.1
 joblib==0.10.3
 sparkly==2.3.0
-sparkly[redis]==2.3.0
+sparkly[redis]
+redis==2.10.6
