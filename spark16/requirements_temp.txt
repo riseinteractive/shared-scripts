@@ -6,7 +6,7 @@ Fabric==1.10.2
 flake8==2.5.1
 googleads==4.6.1
 google-api-python-client==1.5.1
-gspread
+gspread==0.3.0
 ipdb==0.8.1
 ipython==4.0.1
 kafka-python==1.0.1
