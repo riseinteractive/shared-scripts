@@ -36,7 +36,7 @@ SQLAlchemy==1.0.12
 stop-words==2015.2.23.1
 suds==0.4
 twitter==1.17.1
-tqdm==4.4.0
+tqdm==4.23.4
 unicodecsv==0.14.1
 xlrd==0.9.4
 xmltodict==0.9.2
