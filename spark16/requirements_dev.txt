@@ -4,6 +4,7 @@ beautifulsoup4==4.6.0
 bingads==11.12.5
 boto==2.39.0
 cryptography==1.4
+enum34==1.1.6;python_version<"3.4"
 Fabric==1.10.2
 flake8==2.5.1
 googleads==10.0.0
