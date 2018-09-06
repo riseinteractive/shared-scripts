@@ -1,5 +1,6 @@
 argparse==1.2.1
 azure-storage==0.20.3
+beautifulsoup4==4.6.0
 bingads==11.12.5
 boto==2.39.0
 cryptography==1.4
@@ -37,6 +38,7 @@ sparkly==2.3.0
 SQLAlchemy==1.0.12
 stop-words==2015.2.23.1
 suds==0.4
+tqdm==4.23.4
 twitter==1.17.1
 unicodecsv==0.14.1
 xlrd==0.9.4
