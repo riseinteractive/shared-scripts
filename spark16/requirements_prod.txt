@@ -1,5 +1,6 @@
 argparse==1.2.1
 azure-storage==0.20.3
+beautifulsoup4==4.6.0
 bingads==11.5.2
 boto==2.39.0
 cryptography==1.4
