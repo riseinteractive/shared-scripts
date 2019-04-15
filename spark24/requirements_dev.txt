@@ -9,7 +9,6 @@ certifi==2019.3.9
 chardet==3.0.4
 colorama==0.4.1
 coverage==4.5.3
-CS-DataExtract==0.1
 curlify==2.1.1
 decorator==4.4.0
 docutils==0.14
