@@ -7,7 +7,7 @@ cryptography==2.4
 enum34==1.1.6;python_version<"3.4"
 Fabric==1.10.2
 flake8==2.5.1
-googleads==10.0.0
+googleads==17.0.0
 google-api-python-client==1.7.4
 gspread==0.6.2
 ipdb==0.8.1
