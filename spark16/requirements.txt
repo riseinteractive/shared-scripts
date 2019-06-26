@@ -28,6 +28,7 @@ pykafka==2.7.0
 pymssql==2.1.4
 pyOpenSSL==18.0.0
 pysftp==0.2.9
+pyspark==2.4.3
 pytest==2.9.2
 python-dateutil==2.5.0
 python-gnupg==0.3.8
