@@ -21,7 +21,6 @@ pandas==0.22.0
 paramiko==2.4.1
 Pillow==5.1.0
 pycountry==1.20
-pykafka==2.7.0
 pymssql==2.1.4
 pyOpenSSL==18.0.0
 pysftp==0.2.9
