@@ -1,6 +1,6 @@
 azure-storage==0.20.3
 beautifulsoup4==4.6.0
-bingads==11.12.5
+bingads==12.13.4.1
 boto3==1.9.24
 cryptography==2.4
 flake8==2.5.1
