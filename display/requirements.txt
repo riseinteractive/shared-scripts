@@ -2,7 +2,7 @@ azure-storage==0.20.3
 beautifulsoup4==4.6.0
 bingads==11.12.5
 boto3==1.9.24
-cryptography==2.4
+cryptography==2.5
 flake8==2.5.1
 freezegun==0.3.9
 googleads==17.0.0
