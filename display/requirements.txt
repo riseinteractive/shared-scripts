@@ -36,3 +36,6 @@ tqdm==4.23.4
 unicodecsv==0.14.1
 xlrd==1.2.0
 xmltodict==0.9.2
+git+ssh://git@github.com/riseinteractive/RS-Config.git@dev
+git+ssh://git@github.com/riseinteractive/RS-EventLogging.git@dev
+git+ssh://git@github.com/riseinteractive/RS-RunHistory.git@dev
