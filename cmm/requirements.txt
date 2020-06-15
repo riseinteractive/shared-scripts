@@ -24,3 +24,6 @@ gspread-dataframe==3.0.1
 retrying==1.3.3
 oauth2client==4.1.2
 dask[complete]
+git+ssh://git@github.com/riseinteractive/RS-Config.git
+git+ssh://git@github.com/riseinteractive/RS-EventLogging.git
+git+ssh://git@github.com/riseinteractive/RS-RunHistory.git
