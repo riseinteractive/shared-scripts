@@ -1,5 +1,5 @@
 beautifulsoup4==4.6.0
-bingads==12.13.4.1
+bingads==13.0.5
 boto3==1.10.37
 cryptography==2.5
 flake8==3.7.7
