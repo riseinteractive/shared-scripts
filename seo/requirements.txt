@@ -9,7 +9,7 @@ gspread==3.6.0
 invoke
 ipdb==0.8.1
 ipython==4.0.1
-Jinja2==2.10.1
+Jinja2==2.11.3
 joblib==0.10.3
 nltk==3.4.5
 nose==1.3.7
@@ -26,7 +26,7 @@ pytest==3.0.4
 python-dateutil==2.5.0
 python-gnupg==0.4.5
 pytz==2015.7
-PyYAML==5.1
+PyYAML==5.4
 requests==2.22.0
 retrying==1.3.3
 smart_open==1.3.3
