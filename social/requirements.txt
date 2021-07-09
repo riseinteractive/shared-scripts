@@ -12,7 +12,7 @@ curlify==2.1.1
 decorator==4.4.0
 docutils==0.14
 entrypoints==0.3
-facebook-business==10.0.0
+facebook-business==11.0.0
 flake8==3.7.7
 future==0.17.1
 idna==2.8
