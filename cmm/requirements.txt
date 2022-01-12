@@ -1,3 +1,4 @@
+PyNaCl==1.4.0
 alembic==0.8.10
 bingads==12.13.4.1
 boto3==1.10.37
