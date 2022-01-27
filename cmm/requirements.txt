@@ -3,7 +3,7 @@ bingads==12.13.4.1
 boto3==1.10.37
 docutils==0.13.1
 googleads==16.0.0
-ipython==6.3.1
+ipython==7.16.3
 Jinja2==2.10.1
 numpy==1.14.2
 pandas==0.25.3
