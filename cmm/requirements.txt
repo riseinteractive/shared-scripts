@@ -5,7 +5,7 @@ docutils==0.13.1
 googleads==16.0.0
 ipython==6.3.1
 Jinja2==2.10.1
-numpy==1.14.2
+numpy==1.22.0
 pandas==0.25.3
 paramiko==2.7.1
 pymssql==2.1.4
