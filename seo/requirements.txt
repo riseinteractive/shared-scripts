@@ -9,7 +9,7 @@ google-api-python-client==2.26.0
 gspread==3.6.0
 invoke==1.2.0
 ipdb==0.8.1
-ipython==7.4.0
+ipython==8.10.0
 Jinja2==2.11.3
 joblib==0.10.3
 nltk==3.6.7
